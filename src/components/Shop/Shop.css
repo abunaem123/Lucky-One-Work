@@ -10,6 +10,10 @@
     justify-items: center;
 }
 .cart-container{
+    padding: 10px 20px;
+    margin-top: 10px;
+    height: 500px;
     color: black;
     background-color: aliceblue;
+    border-radius: 10px;
 }
