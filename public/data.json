@@ -1,0 +1,56 @@
+[
+    {
+        "img": "images/phone1.jpg",
+        "name": "Iphone 7",
+        "price": 500,
+        "id": "i07"
+    },
+    {
+        "img": "images/phone-2.jpg",
+        "name": "Iphone 8 Plus",
+        "price": 600,
+        "id": "i08"
+    },
+    {
+        "img": "images/phone-3.jpg",
+        "name": "Iphone SE",
+        "price": 650,
+        "id": "i09"
+    },
+    {
+        "img": "images/phone-4.jpg",
+        "name": "Iphone 12 Pro",
+        "price": 1100,
+        "id": "i12"
+    },
+    {
+        "img": "images/phone-5.jpg",
+        "name": "Samsung s21",
+        "price": 1000,
+        "id": "s21"
+    },
+    {
+        "img": "images/phone-6.jpg",
+        "name": "Samsung s22",
+        "price": 950,
+        "id": "s22"
+    },
+    {
+        "img": "images/phone-7.jpg",
+        "name": "Samsung A03s",
+        "price": 250,
+        "id": "a03s"
+    },
+    {
+        "img": "images/phone-8.jpg",
+        "name": "Samsung S21 Ultra",
+        "price": 800,
+        "id": "s21u"
+    },
+    {
+        "img": "images/phone-9.jpg",
+        "name": "Samsung Galaxy",
+        "price": 400,
+        "id": "s400"
+    }
+]
