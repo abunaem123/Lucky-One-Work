@@ -16,8 +16,8 @@ const Shop = () => {
         setCart(newCart)
     }
     return (
-        <div className='shop-container'>
-            <div className="product-container">
+        <div className='shop-container '>
+            <div className="product-container row row-cols-1 row-cols-md-3 g-4 ">
                 {
                     products.map(product => <Product key={product.id}
                         product={product}
@@ -25,9 +25,9 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
-            <div className="cart-container">
+            <div className="cart-container ">
                 <h4>Order Summary</h4>
-                <p>Selected Items: {cart.name}</p>
+                <p>Selected Items: {cart.length}</p>
             </div>
         </div>
     );
