@@ -17,7 +17,7 @@ const Shop = () => {
     }
     return (
         <div className='shop-container '>
-            <div className="product-container row row-cols-1 row-cols-md-3 g-4 ">
+            <div className="product-container row row-cols-1 row-cols-md-3 g-4 p-4">
                 {
                     products.map(product => <Product key={product.id}
                         product={product}
@@ -25,9 +25,12 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
-            <div className="cart-container ">
+            <div className="cart-container bg-light p-4">
                 <h4>Order Summary</h4>
                 <p>Selected Items: {cart.length}</p>
+                <button>Buy One</button>
+                <br />
+                <button className='mt-2'>Buy Again</button>
             </div>
         </div>
     );
